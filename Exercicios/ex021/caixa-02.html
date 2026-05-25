@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group ing tags em HTML</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-image:radial-gradient(circle, #005E8C, #004669, #002B40) ;
+           margin: 0px;
+          
+        }
+        h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-style: italic;
+            color: rgb(255, 255, 255);
+        }
+        header{
+            text-align: center;
+            background-color: #04283B;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            text-align: center;
+            background-color:#08608C;
+            width: 420px;
+            margin: auto;
+            padding: 3px;
+            box-shadow: 5px  3px 7px 1px #1b1b1b7c;
+        }
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            margin: 20px;
+            font-weight: bolder;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: antiquewhite;
+        }
+
+        main {
+            background-color: #04283B;
+            padding: 10px;
+            margin: 10px;
+        }
+        #assunto{
+            text-align: center;
+            color: aliceblue;
+        }
+        #noticias{
+            text-align: center;
+            color: rgb(255, 255, 255);
+        }
+        .esporte{
+            font-weight: bold;
+        }
+        article{
+            text-align: justify;
+            background-color: #08608C;
+            color: aliceblue;
+            padding: 10px;
+            margin: 3px;
+        }
+        aside{
+            background-color: #053d58;
+            font-weight: normal;
+            padding: 1px;
+            margin: 0%;
+        }
+        footer{
+            text-align: center;
+            background-color: #023664;
+            color: aliceblue;
+            font-weight: normal;
+            padding: 1px;
+            margin: 0;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+     <header>
+        <h1> Notícias Brasil</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+     </header>
+     <main>
+        <section id="assunto">
+              <h2>Notícias sobre o Brasil</h2>
+        </section>
+        <section id="noticias">
+             <p class="esporte">Esporte, Política e Tecnologia</p>
+            <article>
+                <p>Romário defendeu a convocação de Neymar, afirmando que o jogador faz a diferença.</p>
+                <p>Operação da PF mira 17 alvos por fraudes fiscais no setor de combustíveis.</p> 
+                <p> A inteligência artificial está sendo adotada para análise de desempenho de jogadores, tabulação de estatísticas e no relacionamento com os fãs, permitindo que clubes analisem milhares de atletas via streaming.</p>
+                <aside>
+                    Escrito por Fancisco Israel dos Santos da Silva
+                </aside>
+            </article>
+
+        </section>
+     </main>
+     <footer>
+        <p>Desenvolvido por Hubble</p>
+     </footer>
+</body>
+</html>

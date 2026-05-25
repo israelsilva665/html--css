@@ -1,0 +1,119 @@
+@charset UTF-8;
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format(OpenType);
+
+}
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+header{
+    text-align: center;
+    background-image: linear-gradient(to top, #37c878, #176d3ead,#223b2daf );
+    color: white;
+    padding: 10px;
+}
+main{
+    background-color: aliceblue;
+    width: 750px;
+    margin: auto;
+    padding: 3px
+}
+p{
+    margin: auto;
+    text-indent: 30px;
+    margin: 30px;
+}
+#titulo{
+    margin: 20px;
+
+}
+.topico{
+    font-family: android, Arial, Helvetica, sans-serif;
+    color: #1d5c3a;
+    background-image: linear-gradient(to right, #37c878da, white);
+    width: 550px;
+    height: auto;
+    padding: 5px;
+    margin: 20px;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;  
+    text-align: left;
+    margin: 0px;
+}
+nav > a{
+         text-decoration: none;
+         color: aliceblue;
+         margin: 5px;
+         font-weight: bold;
+
+        }
+ nav > a:hover{
+        text-decoration: underline;
+        color: antiquewhite;
+}
+.imagem{
+    width: 700px;
+    height: auto;
+    max-width: 100%;
+    padding: 25px;
+    margin: auto;
+    
+}
+.android-e-homem{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+iframe{
+    background-color: #1A5D37;
+    border: 10px #1A5D37;
+    padding: 30px;
+    width: 690px;
+    margin: 0px;
+    
+}
+.aprender{
+    text-align: justify;
+    font-size: 20px;
+    background-color: #37c878;
+    color: aliceblue;
+    width: 720px;
+    border-radius: 3px;
+    margin: px;
+    height: 35px;
+}
+.aprender-mais{
+    background-color: #7ec29d;
+    color: rgb(26, 26, 26);
+    width: 720px;
+    border: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin: 20px;
+    height: 500px;
+    
+}
+.lista-coluna{
+    column-count: 2;
+    column-gap: 40px;
+    padding-left: 20px;
+    margin: 50px;
+}
+   footer{
+            text-align: center;
+            background-color: #0f4e0d;
+            color: aliceblue;
+            font-weight: normal;
+            padding: 1px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
